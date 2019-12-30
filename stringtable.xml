@@ -10,14 +10,14 @@
                 <Chinesesimp>心灵与智慧</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_DESCR_AUTHOR">
-                <Original>Giallustio</Original>
+                <Original>Giallustio with edits by Task Force Raider</Original>
                 <Spanish>Giallustio</Spanish>
                 <German>Giallustio</German>
                 <Portuguese>Giallustio</Portuguese>
                 <Chinesesimp>Giallustio</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_DESCR_MISSION">
-                <Original>www.blacktemplars.altervista.org</Original>
+                <Original>https://www.guilded.gg/Task-Force-Raider</Original>
                 <Spanish>www.blacktemplars.altervista.org</Spanish>
                 <German>www.blacktemplars.altervista.org</German>
                 <Portuguese>www.blacktemplars.altervista.org</Portuguese>
@@ -151,7 +151,7 @@
         </Container>
         <Container name="Documentation: FOB">
             <Key ID="STR_BTC_HAM_DOC_FOB_TEXT">
-                <Original>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\move1_ca.paa' width='20' height='20' /&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\run_ca.paa' width='20' height='20' /&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\move2_ca.paa' width='20' height='20' /&gt; &lt;marker name='blufor_base'&gt;FOB:&lt;/marker&gt;&lt;br/&gt; In this mission a FOB is a forward spawn point, to create a FOB approach the red box at the logistic point and require a blue container.&lt;br/&gt;&lt;br/&gt; - &lt;img image='\A3\Ui_f\data\Map\Markers\NATO\b_hq.paa' width='20' height='20'/&gt;  &lt;marker name='blufor_base'&gt;Deploy:&lt;/marker&gt; &lt;br/&gt; Move it where you want to deploy a new FOB and interact with it to set it up. Keep in mind that you can not deploy a FOB close to the main base (2.500m) and the terrain needs to be flat.&lt;br/&gt;&lt;br/&gt; - &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\interact_ca.paa' width='20' height='20'/&gt; &lt;marker name='blufor_base'&gt;Dismantle:&lt;/marker&gt; &lt;br/&gt; You can dismantle a FOB by interacting with the flag on the HQ roof.</Original>
+                <Original>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\move1_ca.paa' width='20' height='20' /&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\run_ca.paa' width='20' height='20' /&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\move2_ca.paa' width='20' height='20' /&gt; &lt;marker name='blufor_base'&gt;FOB:&lt;/marker&gt;&lt;br/&gt; In this mission a FOB is a forward spawn point, to create a FOB approach the red box at the logistic point and acquire a blue container.&lt;br/&gt;&lt;br/&gt; - &lt;img image='\A3\Ui_f\data\Map\Markers\NATO\b_hq.paa' width='20' height='20'/&gt;  &lt;marker name='blufor_base'&gt;Deploy:&lt;/marker&gt; &lt;br/&gt; Move it where you want to deploy a new FOB and interact with it to set it up. Keep in mind that you can not deploy a FOB close to the main base (2.500m) and the terrain needs to be flat.&lt;br/&gt;&lt;br/&gt; - &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\interact_ca.paa' width='20' height='20'/&gt; &lt;marker name='blufor_base'&gt;Dismantle:&lt;/marker&gt; &lt;br/&gt; You can dismantle a FOB by interacting with the flag on the HQ roof.</Original>
                 <Spanish>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\move1_ca.paa' width='20' height='20' /&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\run_ca.paa' width='20' height='20' /&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\move2_ca.paa' width='20' height='20' /&gt; &lt;marker name='blufor_base'&gt;FOB:&lt;/marker&gt;&lt;br/&gt; En esta misión un FOB es un punto de respawn avanzado, para crear un FOB se aproxima a la caja roja en el punto logístico y requiere un contenedor azul.&lt;br/&gt;&lt;br/&gt; - &lt;img image='\A3\Ui_f\data\Map\Markers\NATO\b_hq.paa' width='20' height='20'/&gt;  &lt;marker name='blufor_base'&gt;Deploy:&lt;/marker&gt; &lt;br/&gt; Muévelo donde quieras desplegar un nuevo FOB e interactúa con él para configurarlo. Tenga en cuenta que no puede desplegar un FOB cerca de la base principal (2.500m) y el terreno debe ser plano.&lt;br/&gt;&lt;br/&gt; - &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\interact_ca.paa' width='20' height='20'/&gt; &lt;marker name='blufor_base'&gt;Dismantle:&lt;/marker&gt; &lt;br/&gt; Puede desmontar un FOB interactuando con la bandera en el techo del HQ.</Spanish>
                 <German>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\move1_ca.paa' width='20' height='20' /&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\run_ca.paa' width='20' height='20' /&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\move2_ca.paa' width='20' height='20' /&gt; &lt;marker name='blufor_base'&gt;FOB:&lt;/marker&gt;&lt;br/&gt; Eine FOB (Forward Operating Base / vorgeschobene Operationsbasis) dient in dieser Mission als Spawn-Punkt. Um eine FOB zu erstellen muss am Logistikpunkt ein ensprechnender Frachtcontainer(Blau) angefordert werden&lt;br/&gt;&lt;br/&gt; - &lt;img image='\A3\Ui_f\data\Map\Markers\NATO\b_hq.paa' width='20' height='20'/&gt;  &lt;marker name='blufor_base'&gt;Aufbau:&lt;/marker&gt; &lt;br/&gt; Der Aufbau kann nur statfinden, wenn man sich mindestens 2,5km von der Basis entfernt hat und das Gelände relativ flach ist. Um den Aufbau zu beginnen: einfach mit dem Frachtcontainer interagieren und 'FOB aufbauen' auswählen.&lt;br/&gt;&lt;br/&gt; - &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\interact_ca.paa' width='20' height='20'/&gt; &lt;marker name='blufor_base'&gt;Abbau:&lt;/marker&gt; &lt;br/&gt; Auf dem Dach der FOB kann man mit der Flagge interagieren um den Abbau zu beginnen.</German>
                 <Portuguese>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\move1_ca.paa' width='20' height='20' /&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\run_ca.paa' width='20' height='20' /&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\move2_ca.paa' width='20' height='20' /&gt; &lt;marker name='blufor_base'&gt;FOB:&lt;/marker&gt;&lt;br/&gt; Nesta missão, uma FOB é um ponto de surgimento. Para criar uma FOB, aproxime-se da caixa vermelha no ponto logístico, solicite um container azul.&lt;br/&gt;&lt;br/&gt; - &lt;img image='\A3\Ui_f\data\Map\Markers\NATO\b_hq.paa' width='20' height='20'/&gt;  &lt;marker name='blufor_base'&gt;Deploy:&lt;/marker&gt; &lt;br/&gt; A construção só pode acontecer se você se deslocar 2.500m da FOB principal e o terreno deve ser plano. Para começar a criar a nova FOB, basta interagir com o cônteiner e selecionar: "Build FOB" (Criar FOB).&lt;br/&gt;&lt;br/&gt; - &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\interact_ca.paa' width='20' height='20'/&gt; &lt;marker name='blufor_base'&gt;Dismantle:&lt;/marker&gt; &lt;br/&gt; No telhado da FOB, você pode interagir com a bandeira para iniciar a desmontagem da FOB.</Portuguese>
@@ -169,7 +169,7 @@
         </Container>
         <Container name="Documentation: Logistic point">
             <Key ID="STR_BTC_HAM_DOC_LOGISTICP_TEXT">
-                <Original>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\repair_ca.paa' width='20' height='20'/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\rearm_ca.paa' width='20' height='20'/&gt; At the logistic point you can require new objects (like ammo, fortifications, supplies for the side missions...) and repair destroyed vehicles.</Original>
+                <Original>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\repair_ca.paa' width='20' height='20'/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\rearm_ca.paa' width='20' height='20'/&gt; At the logistic point you can acquire new objects (like ammo, fortifications, supplies for the side missions...) and repair destroyed vehicles.</Original>
                 <Spanish>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\repair_ca.paa' width='20' height='20'/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\rearm_ca.paa' width='20' height='20'/&gt; En el punto logístico puede requerir nuevos objetos (como municiones, fortificaciones, suministros para las misiones secundarias...) y reparar vehículos destruidos.</Spanish>
                 <German>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\repair_ca.paa' width='20' height='20'/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\rearm_ca.paa' width='20' height='20'/&gt; Am Logistikpunkt kann man neue Objekte (wie zB. Munition, Baumaterial, Nachschubgüter für Nebenaufgaben...) anfordern und zerstörte Fahrzeuge reparieren.</German>
                 <Portuguese>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\repair_ca.paa' width='20' height='20'/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\rearm_ca.paa' width='20' height='20'/&gt; No ponto logístico, você pode solicitar novos objetos (como munição, fortificações, suprimentos para as missões secundárias ...) e reparar veículos destruídos.</Portuguese>
@@ -186,16 +186,16 @@
         </Container>
         <Container name="Documentation: Hideout">
             <Key ID="STR_BTC_HAM_DOC_HIDEOUT_TEXT">
-                <Original>The hideouts are a place where the Oplitas organize their movements.&lt;br/&gt;They send reinforcements from here and can attack the closest city.&lt;br/&gt;If you notice a lot of activity in an area, probably there is an hideout closeby.&lt;br/&gt;If you want to defeat the Oplitas, you need to destroy all their hideouts.&lt;br/&gt;Here an example of an hideout:&lt;br/&gt;&lt;br/&gt;&lt;img image='core\img\hideout.jpg' width='256' height='256'/&gt;&lt;br/&gt;&lt;br/&gt;To destroy an hideout just place a satchel near the ammo box, it's close to the flag, and blow it off!</Original>
-                <Spanish>Los escondites son un lugar donde los Oplitas organizan sus movimientos.&lt;br/&gt;Enviarán refuerzos desde aquí y podrán atacar la ciudad más cercana.&lt;br/&gt;Si usted nota mucha actividad en un área, probablemente hay un escondite cerca.Si quieres derrotar a los Oplitas, tienes que destruir todos sus escondites.&lt;br/&gt;Aquí un ejemplo de un escondite:&lt;br/&gt;&lt;br/&gt;&lt;img image='core\img\hideout.jpg' width='256' height='256'/&gt;&lt;br/&gt;&lt;br/&gt;Para destruir un escondite sólo tienes que colocar una explosivo tipo satchel cerca de la caja de municiones, cerca de la bandera, y volarla!</Spanish>
-                <German>In den Verstecken planen und organisieren die Oplitas ihre Einstäze und Bewegungen.&lt;br/&gt;Von hier wird Verstärkung auf umliegende Gebiete verteilt. Ebenso ist ein Angriff auf die nächste Stadt von hier aus möglich.&lt;br/&gt;Sollten Sie eine erhöhte feindliche Aktivität in der Gegend festestellen, so befindet sich möglicherweise ein Versteck in der Nähe.&lt;br/&gt;Wenn Sie die Oplitas besiegen wollen, so müssen Sie alle Verstecke zerstören.&lt;br/&gt;Hier ein kleines Beispiel für ein Versteck:&lt;br/&gt;&lt;br/&gt;&lt;img image='core\img\hideout.jpg' width='256' height='256'/&gt;&lt;br/&gt;&lt;br/&gt;Das Versteck kann zerstört werden in dem man eine Sprengladung in der Nähe der Munitionskiste oder der Flagge zündet!</German>
+                <Original>The hideouts are a place where the Islamic State organize their movements.&lt;br/&gt;They send reinforcements from here and can attack the closest city.&lt;br/&gt;If you notice a lot of activity in an area, there is probably a hideout closeby.&lt;br/&gt;If you want to defeat the Islamic State, you need to destroy all their hideouts.&lt;br/&gt;Here an example of an hideout:&lt;br/&gt;&lt;br/&gt;&lt;img image='core\img\hideout.jpg' width='256' height='256'/&gt;&lt;br/&gt;&lt;br/&gt;To destroy a hideout just place a satchel near the ammo box, it's close to the flag, and blow it off!</Original>
+                <Spanish>Los escondites son un lugar donde los Islamic State organizan sus movimientos.&lt;br/&gt;Enviarán refuerzos desde aquí y podrán atacar la ciudad más cercana.&lt;br/&gt;Si usted nota mucha actividad en un área, probablemente hay un escondite cerca.Si quieres derrotar a los Islamic State, tienes que destruir todos sus escondites.&lt;br/&gt;Aquí un ejemplo de un escondite:&lt;br/&gt;&lt;br/&gt;&lt;img image='core\img\hideout.jpg' width='256' height='256'/&gt;&lt;br/&gt;&lt;br/&gt;Para destruir un escondite sólo tienes que colocar una explosivo tipo satchel cerca de la caja de municiones, cerca de la bandera, y volarla!</Spanish>
+                <German>In den Verstecken planen und organisieren die Islamic State ihre Einstäze und Bewegungen.&lt;br/&gt;Von hier wird Verstärkung auf umliegende Gebiete verteilt. Ebenso ist ein Angriff auf die nächste Stadt von hier aus möglich.&lt;br/&gt;Sollten Sie eine erhöhte feindliche Aktivität in der Gegend festestellen, so befindet sich möglicherweise ein Versteck in der Nähe.&lt;br/&gt;Wenn Sie die Islamic State besiegen wollen, so müssen Sie alle Verstecke zerstören.&lt;br/&gt;Hier ein kleines Beispiel für ein Versteck:&lt;br/&gt;&lt;br/&gt;&lt;img image='core\img\hideout.jpg' width='256' height='256'/&gt;&lt;br/&gt;&lt;br/&gt;Das Versteck kann zerstört werden in dem man eine Sprengladung in der Nähe der Munitionskiste oder der Flagge zündet!</German>
                 <Portuguese>Os esconderijos são um lugar onde as inimigos organizam seus movimentos.&lt;br/&gt;Daqui eles enviam reforços e podem atacar as cidades mais próximas.&lt;br/&gt;Se você notar muita atividade em uma área, provavelmente há um esconderijo por perto.&lt;br/&gt;Se você quiser derrotar o inimigo, terá que destruir todos os esconderijos.&lt;br/&gt;Veja um exemplo de um esconderijo:&lt;br/&gt;&lt;br/&gt;&lt;img image='core\img\hideout.jpg' width='256' height='256'/&gt;&lt;br/&gt;&lt;br/&gt;Para destruir um esconderijo, basta colocar uma bolsa de explosivos perto da caixa de munição (que fica perto da bandeira) e explodí-lo!</Portuguese>
-                <Chinesesimp>藏匿点是Oplitas组织活动的地方。&lt;br/&gt;他们从这里派遣增援, 进攻附近的城市。&lt;br/&gt;如果你在某区域注意到了大量民兵活动, 那么藏匿点可能就在附近。&lt;br/&gt;如果你想要打败Oplitas, 你需要摧毁所有的藏匿点。&lt;br/&gt;这是一张藏匿点的示意图:&lt;br/&gt;&lt;br/&gt;&lt;img image='core\img\hideout.jpg' width='256' height='256'/&gt;&lt;br/&gt;&lt;br/&gt;要摧毁藏匿点, 只需在靠近旗帜的弹药箱上放置一个炸药包, 然后炸掉它!</Chinesesimp>
+                <Chinesesimp>藏匿点是Islamic State组织活动的地方。&lt;br/&gt;他们从这里派遣增援, 进攻附近的城市。&lt;br/&gt;如果你在某区域注意到了大量民兵活动, 那么藏匿点可能就在附近。&lt;br/&gt;如果你想要打败Islamic State, 你需要摧毁所有的藏匿点。&lt;br/&gt;这是一张藏匿点的示意图:&lt;br/&gt;&lt;br/&gt;&lt;img image='core\img\hideout.jpg' width='256' height='256'/&gt;&lt;br/&gt;&lt;br/&gt;要摧毁藏匿点, 只需在靠近旗帜的弹药箱上放置一个炸药包, 然后炸掉它!</Chinesesimp>
             </Key>
         </Container>
         <Container name="Documentation: IED">
             <Key ID="STR_BTC_HAM_DOC_IED_TEXT">
-                <Original>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\interact_ca.paa' width='20' height='20'/&gt; Any object could be an IED, approach it carefully (DO NOT rotate while you are walking: prefer walk, stop, rotate, walk again etc). Turn On your mine detector (VMH3 or VMMH3) and search for a charge in a circle of 2 meter around.&lt;br/&gt; &lt;img image='\z\ace\addons\explosives\UI\Defuse_ca.paa' width='20' height='20'/&gt; If you are an engineer and have a defusal kit, you can disarm it.&lt;br/&gt; You can also blow them off with high caliber and explosive satchels.</Original>
+                <Original>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\interact_ca.paa' width='20' height='20'/&gt; Any object could be an IED, approach it carefully (DO NOT rotate while you are walking: prefer walk, stop, rotate, walk again etc). Turn On your mine detector (VMH3 or VMMH3) and search for a charge in a circle of 2 meter around.&lt;br/&gt; &lt;img image='\z\ace\addons\explosives\UI\Defuse_ca.paa' width='20' height='20'/&gt; If you are an engineer and have a defusal kit, you can disarm it.&lt;br/&gt; You can also blow them up with high calibers or explosive satchels.</Original>
                 <Spanish>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\interact_ca.paa' width='20' height='20'/&gt; Cualquier objeto puede ser un artefacto explosivo improvisado, acérquese a él con cuidado (NO rote mientras camina: prefiera caminar, detenerse, rotar, volver a caminar, etc.). Encienda su detector de minas (VMH3 o VMMH3) y busque una carga en un círculo de 2 metros alrededor.&lt;br/&gt; &lt;img image='\z\ace\addons\explosives\UI\Defuse_ca.paa' width='20' height='20'/&gt; Si usted es ingeniero y tiene un kit de desactivación, puede desarmarlo.&lt;br/&gt; También puedes volarlos con explosivos y fuego de alto calibre.</Spanish>
                 <German>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\interact_ca.paa' width='20' height='20'/&gt; Jedes Objekt kann eine IED sein, seien sie ensprechen Vorsichtig und machen Sie keine hastigen Bewegungen (NICHT drehen wenn man läuft: besser gehen, stop, drehen, gehen und so weiter). Schalten Sie ihren Minendetektor (VMH3 oder VMMH3) ein und suchen sie in eim 2m Radius nach der Ladung.&lt;br/&gt; &lt;img image='\z\ace\addons\explosives\UI\Defuse_ca.paa' width='20' height='20'/&gt; Wenn Sie ein Ingenieur sind und ein Entschärfungskit dabei habe, können Sie die Sprengladung entschärfen.&lt;br/&gt; Es is ebenfalls möglich die IED mithilfe von hohen Kalibern oder Sprengladungen zu entfernen (kontrollierte Explosion).</German>
                 <Portuguese>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\interact_ca.paa' width='20' height='20'/&gt; Qualquer objeto pode ser um IED, aproxime-o com cuidado (NÃO vire-se enquanto estiver andando: ande, pare, olhe, ande de novo, etc.). Ative o seu detector de minas (VMH3 ou VMMH3) e procure uma carga em um círculo de 2 metros ao redor.&lt;br/&gt; &lt;img image='\z\ace\addons\explosives\UI\Defuse_ca.paa' width='20' height='20'/&gt; Se você é um engenheiro e possui um kit de desarme, você pode desarmá-lo.&lt;br/&gt; Também é possível destruir o IED usando grosso calibre ou explosivos (explosão controlada).</Portuguese>
@@ -204,7 +204,7 @@
         </Container>
         <Container name="Documentation: Intel">
             <Key ID="STR_BTC_HAM_DOC_INTEL_TEXT">
-                <Original>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\map_ca.paa' width='20' height='20'/&gt; Intel can be retrieved in the following ways:&lt;br/&gt;&lt;br/&gt; - &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\search_ca.paa' width='13' height='13'/&gt; Searching dead bodies&lt;br/&gt; - &lt;img image='\a3\Ui_f\data\GUI\Cfg\CommunicationMenu\instructor_ca.paa' width='13' height='13'/&gt; Interrogate prisoner&lt;br/&gt; - &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='13' height='13'/&gt; Talking to civilians&lt;br/&gt;&lt;br/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\talk_ca.paa' width='20' height='20'/&gt; Keep in mind that only the interpreter can talk to civilians and they can lie if your reputation level is low.&lt;br/&gt;&lt;br/&gt; When you find an intel from a dead body or interrogate a prisoner, a marker will appear in the map. Remember, prisoner have a random number of intel more or less interesting.&lt;br/&gt; There are two types of marker:&lt;br/&gt; - Red question mark (&lt;img image='\A3\ui_f\data\map\markers\handdrawn\unknown_CA.paa' width='13' height='13' color='#ff0000'/&gt;): ammo cache intel&lt;br/&gt; - Red exclamation mark (&lt;img image='\A3\ui_f\data\map\markers\handdrawn\warning_CA.paa' width='13' height='13' color='#ff0000'/&gt;): hideout intel&lt;br/&gt;&lt;br/&gt;&lt;br/&gt; When you destroy an hideout or an ammo cache, all the markers related to it will be deleted.</Original>
+                <Original>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\map_ca.paa' width='20' height='20'/&gt; Intel can be retrieved in the following ways:&lt;br/&gt;&lt;br/&gt; - &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\search_ca.paa' width='13' height='13'/&gt; Searching dead bodies&lt;br/&gt; - &lt;img image='\a3\Ui_f\data\GUI\Cfg\CommunicationMenu\instructor_ca.paa' width='13' height='13'/&gt; Interrogate prisoner&lt;br/&gt; - &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='13' height='13'/&gt; Talking to civilians&lt;br/&gt;&lt;br/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\talk_ca.paa' width='20' height='20'/&gt; Keep in mind that only the interpreter can talk to civilians and they can lie if your reputation level is low.&lt;br/&gt;&lt;br/&gt; When you find an intel from a dead body or interrogate a prisoner, a marker will appear in the map. Remember, prisoners have a random number of intels, more or less interesting.&lt;br/&gt; There are two types of marker:&lt;br/&gt; - Red question mark (&lt;img image='\A3\ui_f\data\map\markers\handdrawn\unknown_CA.paa' width='13' height='13' color='#ff0000'/&gt;): ammo cache intel&lt;br/&gt; - Red exclamation mark (&lt;img image='\A3\ui_f\data\map\markers\handdrawn\warning_CA.paa' width='13' height='13' color='#ff0000'/&gt;): hideout intel&lt;br/&gt;&lt;br/&gt;&lt;br/&gt; When you destroy an hideout or an ammo cache, all the markers related to it will be deleted.</Original>
                 <Spanish>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\map_ca.paa' width='20' height='20'/&gt; La Inteligencia se puede recuperar de las siguientes maneras:&lt;br/&gt;&lt;br/&gt; - &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\search_ca.paa' width='13' height='13'/&gt; Registrando cadáveres&lt;br/&gt; - &lt;img image='\a3\Ui_f\data\GUI\Cfg\CommunicationMenu\instructor_ca.paa' width='13' height='13'/&gt; Interrogando prisioneros&lt;br/&gt; - &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='13' height='13'/&gt; Conversando con Civiles&lt;br/&gt;&lt;br/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\talk_ca.paa' width='20' height='20'/&gt; Tenga en cuenta que sólo el intérprete puede hablar con civiles y ellos pueden mentir si su nivel de reputación es bajo.&lt;br/&gt;&lt;br/&gt; Cuando encuentres una información de un cadáver o interrogues a un prisionero, aparecerá un marcador en el mapa. Recuerda, los prisioneros tienen un número aleatorio de información más o menos interesante.&lt;br/&gt; Hay 2 tipos de marcas:&lt;br/&gt; - Signo de interrogacion rojo (&lt;img image='\A3\ui_f\data\map\markers\handdrawn\unknown_CA.paa' width='13' height='13' color='#ff0000'/&gt;): intel sobre cache de municion&lt;br/&gt; - Signo de exclamacion rojo (&lt;img image='\A3\ui_f\data\map\markers\handdrawn\warning_CA.paa' width='13' height='13' color='#ff0000'/&gt;): intel sobre escondite&lt;br/&gt;&lt;br/&gt;&lt;br/&gt; Cuando destruyes un escondite o una caché de munición, todos los marcadores relacionados con él se borrarán.</Spanish>
                 <German>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\map_ca.paa' width='20' height='20'/&gt;  Informationen kann man auf verschiedene Arten erhalten:&lt;br/&gt;&lt;br/&gt; - &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\search_ca.paa' width='13' height='13'/&gt; Durchsuchen von toten Personen&lt;br/&gt; - &lt;img image='\a3\Ui_f\data\GUI\Cfg\CommunicationMenu\instructor_ca.paa' width='13' height='13'/&gt; Verhören von Gefangenen&lt;br/&gt; - &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='13' height='13'/&gt; Mit Zivilisten reden&lt;br/&gt;&lt;br/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\talk_ca.paa' width='20' height='20'/&gt; Nur der Dolmetscher kann sich mit Zivilisten unterhalten. Wenn ihr Ansehen bei der Bevölkerunge niedrig ist, so kann es auch mal vorkommen das manche Zivilisten sie belügen.&lt;br/&gt;&lt;br/&gt; Wenn Sie Information erhalten, erscheint eine Markierung auf der Karte. Zur Erinnerung: Gefangene habe mal mehr und mal weniger interessante Informationen.&lt;br/&gt; Es gibt zwei Arten von Markierungen:&lt;br/&gt; - Ein rotes Fragezeichen (&lt;img image='\A3\ui_f\data\map\markers\handdrawn\unknown_CA.paa' width='13' height='13' color='#ff0000'/&gt;): Information über ein Waffenlager &lt;br/&gt; - Ein rotes Ausrufezeichen (&lt;img image='\A3\ui_f\data\map\markers\handdrawn\warning_CA.paa' width='13' height='13' color='#ff0000'/&gt;): Information über ein Versteck &lt;br/&gt;&lt;br/&gt;&lt;br/&gt; Wenn Sie ein Versteck oder ein Waffenlager zersört haben, so werden alle relevanten Markierungen automatisch gelöscht.</German>
                 <Portuguese>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\map_ca.paa' width='20' height='20'/&gt; Informações podem ser obtidas de diferentes maneiras:&lt;br/&gt;&lt;br/&gt; - &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\search_ca.paa' width='13' height='13'/&gt; Procurando nos corpos dos mortos&lt;br/&gt; - &lt;img image='\a3\Ui_f\data\GUI\Cfg\CommunicationMenu\instructor_ca.paa' width='13' height='13'/&gt; Interrogando prisioneiros&lt;br/&gt; - &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='13' height='13'/&gt; Falando com civis&lt;br/&gt;&lt;br/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\talk_ca.paa' width='20' height='20'/&gt; Somente o intérprete pode conversar com os civis. Se a reputação entre a população é baixa, pode acontecer de alguns civis passarem informações mentirosas.&lt;br/&gt;&lt;br/&gt; Quando você encontrar uma informação em um cadáver ou interrogando um prisioneiro, uma marcação aparecerá no mapa. Lembre-se, os prisioneiros possuem um número aleatório de informações que são mais ou menos importante.&lt;br/&gt; Existem dois tipos de marcação:&lt;br/&gt; - Interrogação em Vermelho (&lt;img image='\A3\ui_f\data\map\markers\handdrawn\unknown_CA.paa' width='13' height='13' color='#ff0000'/&gt;): Informações sobre depósito de armas&lt;br/&gt; - Exclamação em Vermelho (&lt;img image='\A3\ui_f\data\map\markers\handdrawn\warning_CA.paa' width='13' height='13' color='#ff0000'/&gt;): Informações sobre um esconderijo&lt;br/&gt;&lt;br/&gt;&lt;br/&gt; Quando você destroí um esconderijo ou depósito de munição, o marcador será excluído.</Portuguese>
@@ -220,11 +220,11 @@
                 <Chinesesimp>声誉</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_DOC_REPUTATION_TEXT">
-                <Original>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\talk_ca.paa' width='20' height='20'/&gt; Reputation can be ask to civilian&lt;br/&gt; Bad actions cause bad effects.&lt;br/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='20' height='20'/&gt; Helping the local population by fighting the Oplitas and disarming IED's will rise your reputation; killing civilians, mutilating alive/dead civilians, firing near civilians for no reason, firing to civilian car, damaging/destroying buildings, losing vehicles, player respawns will decrease your repution. At the beginning you have a very low reputation level, so civilians won't help you in revealing important information about the Oplitas, they will likely lie instead.&lt;br/&gt; Aborting a side mission does not affect reputation.</Original>
-                <Spanish>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\talk_ca.paa' width='20' height='20'/&gt; La reputación se puede solicitar a los civiles&lt;br/&gt; Las malas acciones causan malos efectos sobre la reputacion.&lt;br/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='20' height='20'/&gt; Ayudar a la población local luchando contra los Oplitas y desarmando los artefactos explosivos improvisados aumentará tu reputación; matar civiles, mutilar civiles vivos/muertos, disparar cerca de civiles sin razón alguna, disparar a vehículos civiles, dañar/destruir edificios, perder vehículos, respawns de jugadores disminuirá tu reputación. Al principio tienes un nivel de reputación muy bajo, por lo que los civiles no te ayudarán a revelar información importante sobre los Oplitas, es probable que mientan en su lugar.&lt;br/&gt; Abortar una misión secundaria no afecta a la reputación.</Spanish>
-                <German>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\talk_ca.paa' width='20' height='20'/&gt; Ihr Ansehen bei der Bevölkerung können Sie bei Zivilisten erfragen &lt;br/&gt; Schlechte bzw. böse Handlungen habe zur Folge das ihr Ansehen sinkt. &lt;br/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='20' height='20'/&gt; Das Unterstützen der lokalen Bevölkerung, das Entschärfen von IEDs und der aktive Kampf gegen die Oplitas wird sich positiv auf ihr Ansehen auswirken. Negative Aktionen wie zb. das Töten oder verstümmeln von Zivlisten, das grundlose Abfeueren einer Waffe in der Nähe von Zivilisten, das Zerstören oder Beschädigen von Gebäuden, der Angriff auf zivile Fahrzeuge, der Verlust von Fahrzeugen im Allgemeinen oder das Respawnen haben hingegen einen nicht so guten Effekt. Zu Beginn ist Ihr Ansehen nur recht gering, weshalb es sein kann das Zivlisten eher zruückhaltend mit Informationen sind. In manchen Fällen werden die Zivilisten Sie auch einfach belügen.&lt;br/&gt; Das Abbrechen von Nebenaufgaben hat keine Auswirkung auf Ihr Ansehen.</German>
+                <Original>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\talk_ca.paa' width='20' height='20'/&gt; Reputation can be checked by asking civilians&lt;br/&gt; Bad actions cause bad effects.&lt;br/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='20' height='20'/&gt; Helping the local population by fighting the Islamic State and disarming IED's will rise your reputation; killing civilians, mutilating alive/dead civilians, firing near civilians for no reason, firing to civilian car, damaging/destroying buildings, losing vehicles and player respawns will decrease your repution. At the beginning you have a very low reputation level, so civilians won't help you in revealing important information about the Islamic State, they will likely lie instead.&lt;br/&gt; Aborting a side mission does not affect reputation.</Original>
+                <Spanish>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\talk_ca.paa' width='20' height='20'/&gt; La reputación se puede solicitar a los civiles&lt;br/&gt; Las malas acciones causan malos efectos sobre la reputacion.&lt;br/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='20' height='20'/&gt; Ayudar a la población local luchando contra los Islamic State y desarmando los artefactos explosivos improvisados aumentará tu reputación; matar civiles, mutilar civiles vivos/muertos, disparar cerca de civiles sin razón alguna, disparar a vehículos civiles, dañar/destruir edificios, perder vehículos, respawns de jugadores disminuirá tu reputación. Al principio tienes un nivel de reputación muy bajo, por lo que los civiles no te ayudarán a revelar información importante sobre los Islamic State, es probable que mientan en su lugar.&lt;br/&gt; Abortar una misión secundaria no afecta a la reputación.</Spanish>
+                <German>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\talk_ca.paa' width='20' height='20'/&gt; Ihr Ansehen bei der Bevölkerung können Sie bei Zivilisten erfragen &lt;br/&gt; Schlechte bzw. böse Handlungen habe zur Folge das ihr Ansehen sinkt. &lt;br/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='20' height='20'/&gt; Das Unterstützen der lokalen Bevölkerung, das Entschärfen von IEDs und der aktive Kampf gegen die Islamic State wird sich positiv auf ihr Ansehen auswirken. Negative Aktionen wie zb. das Töten oder verstümmeln von Zivlisten, das grundlose Abfeueren einer Waffe in der Nähe von Zivilisten, das Zerstören oder Beschädigen von Gebäuden, der Angriff auf zivile Fahrzeuge, der Verlust von Fahrzeugen im Allgemeinen oder das Respawnen haben hingegen einen nicht so guten Effekt. Zu Beginn ist Ihr Ansehen nur recht gering, weshalb es sein kann das Zivlisten eher zruückhaltend mit Informationen sind. In manchen Fällen werden die Zivilisten Sie auch einfach belügen.&lt;br/&gt; Das Abbrechen von Nebenaufgaben hat keine Auswirkung auf Ihr Ansehen.</German>
                 <Portuguese>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\talk_ca.paa' width='20' height='20'/&gt; A Reputação entre a população é obtida por meio dos civis &lt;br/&gt; Ações ruins ou más fazem a reputação diminuir. &lt;br/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='20' height='20'/&gt; Ajudar a população local combatendo os inimigos e desarmando os IED's aumentará sua reputação. Matar civis, mutilar civis vivos/mortos, atirar perto de civis sem motivo, atirar nos veículos civis, danificar/destruir prédios, perder veículos civis, respawns de jogadores diminuirão a reputação. No começo, o nível de reputação é muito baixo, então, os civis não irão ajudá-lo a revelar informações importantes sobre os inimigos ou provavelmente irão mentir.&lt;br/&gt; Cancelar tarefas secundárias não afeta a reputação.</Portuguese>
-                <Chinesesimp>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\talk_ca.paa' width='20' height='20'/&gt; 可以向平民询问声誉状况&lt;br/&gt; 不良作风及恶劣行为会导致声誉下降。&lt;br/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='20' height='20'/&gt; 救助当地居民, 拆除IED并积极地与Oplitas作战将对声誉产生积极影响。另一方面, 攻击或击杀平民、残害平民遗体、毁坏建筑物、攻击或掠夺民用车辆、损失我方载具和玩家重生均会降低声誉。一开始, 你的声誉很低, 因此平民不会为你提供情报, 他们可能会欺骗你。&lt;br/&gt; 中止支线任务不会影响声誉。</Chinesesimp>
+                <Chinesesimp>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\talk_ca.paa' width='20' height='20'/&gt; 可以向平民询问声誉状况&lt;br/&gt; 不良作风及恶劣行为会导致声誉下降。&lt;br/&gt; &lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='20' height='20'/&gt; 救助当地居民, 拆除IED并积极地与Islamic State作战将对声誉产生积极影响。另一方面, 攻击或击杀平民、残害平民遗体、毁坏建筑物、攻击或掠夺民用车辆、损失我方载具和玩家重生均会降低声誉。一开始, 你的声誉很低, 因此平民不会为你提供情报, 他们可能会欺骗你。&lt;br/&gt; 中止支线任务不会影响声誉。</Chinesesimp>
             </Key>
         </Container>
         <Container name="Documentation: Orders">
@@ -245,11 +245,11 @@
                 <Chinesesimp>交通</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_DOC_TRAFFIC_TEXT">
-                <Original>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='20' height='20'/&gt; &lt;img image='\A3\soft_f_gamma\van_01\Data\UI\map_van_01_box_CA.paa' width='20' height='20'/&gt; Civilians are travelling by vehicle across cities. If your reputation is higher than normal, you can ask for a lift to a location chosen on the map. If you bump into a Oplitas patrol, don't worry, the civilian driver will do their best to hide you in the car.&lt;br/&gt;</Original>
-                <Spanish>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='20' height='20'/&gt; &lt;img image='\A3\soft_f_gamma\van_01\Data\UI\map_van_01_box_CA.paa' width='20' height='20'/&gt; Los civiles viajan en vehículo a través de las ciudades. Si tu reputación es más alta de lo normal, puedes pedir que te lleven a un lugar elegido en el mapa. Si te encuentras con una patrulla de Oplitas, no te preocupes, el conductor civil hará todo lo posible para esconderte en el coche.&lt;br/&gt;</Spanish>
+                <Original>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='20' height='20'/&gt; &lt;img image='\A3\soft_f_gamma\van_01\Data\UI\map_van_01_box_CA.paa' width='20' height='20'/&gt; Civilians are travelling by vehicle across cities. If your reputation is higher than normal, you can ask for a lift to a location chosen on the map. If you bump into a Islamic State patrol, don't worry, the civilian driver will do their best to hide you in the car.&lt;br/&gt;</Original>
+                <Spanish>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='20' height='20'/&gt; &lt;img image='\A3\soft_f_gamma\van_01\Data\UI\map_van_01_box_CA.paa' width='20' height='20'/&gt; Los civiles viajan en vehículo a través de las ciudades. Si tu reputación es más alta de lo normal, puedes pedir que te lleven a un lugar elegido en el mapa. Si te encuentras con una patrulla de Islamic State, no te preocupes, el conductor civil hará todo lo posible para esconderte en el coche.&lt;br/&gt;</Spanish>
                 <German>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='20' height='20'/&gt; &lt;img image='\A3\soft_f_gamma\van_01\Data\UI\map_van_01_box_CA.paa' width='20' height='20'/&gt; Zivlisten sind mit Fahrzeugen in den Städten unterwegs. Wenn Sie ein hohes Ansehen in der Bevölkerung genießen, so sind Zivlisten auch gerne mal dazu bereit Sie mitzunehmen (nutzen sie die Karte um den Zivlisten zu zeigen wo sie hinwollen). Sollten Sie dabei durch Zufall auf Feinde stoßen, so wird der Zivilist sein Bestes geben um sie im Fahrzeug zu verstecken.&lt;br/&gt;</German>
                 <Portuguese>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='20' height='20'/&gt; &lt;img image='\A3\soft_f_gamma\van_01\Data\UI\map_van_01_box_CA.paa' width='20' height='20'/&gt; Civis estarão viajando de veículo pelo mapa, entre uma cidade e outra. Se sua reputação com a população local for alta, eles estarão dispostos a levá-lo a qualuqer lugar do mapa (use o mapa para mostrar onde você quer ir). Se vocês encontrarem uma patrulha inimiga, o civil fará todo possível para te esconder no veículo.&lt;br/&gt;</Portuguese>
-                <Chinesesimp>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='20' height='20'/&gt; &lt;img image='\A3\soft_f_gamma\van_01\Data\UI\map_van_01_box_CA.paa' width='20' height='20'/&gt; 平民会在城市间开车穿梭。如果你的声誉够高, 平民会乐意载你一程(用地图指出你要去的地方)。如果你在途中遭遇了Oplitas巡逻队, 不要担心, 平民会尽其所能地把你藏在车里。&lt;br/&gt;</Chinesesimp>
+                <Chinesesimp>&lt;img image='\A3\ui_f\data\igui\cfg\simpleTasks\types\meet_ca.paa' width='20' height='20'/&gt; &lt;img image='\A3\soft_f_gamma\van_01\Data\UI\map_van_01_box_CA.paa' width='20' height='20'/&gt; 平民会在城市间开车穿梭。如果你的声誉够高, 平民会乐意载你一程(用地图指出你要去的地方)。如果你在途中遭遇了Islamic State巡逻队, 不要担心, 平民会尽其所能地把你藏在车里。&lt;br/&gt;</Chinesesimp>
             </Key>
         </Container>
         <Container name="Documentation: Gear">
@@ -670,25 +670,25 @@
         </Container>
     </Package>
     <Package name="Missions">
-        <Container name="Mission: Defeat the Oplitas">
+        <Container name="Mission: Defeat the Islamic State">
             <Key ID="STR_BTC_HAM_MISSION_DEFEAT_TITLE">
-                <Original>Defeat the Oplitas</Original>
-                <Spanish>Derrotar a los Oplitas</Spanish>
-                <German>Besiege die Oplitas</German>
+                <Original>Defeat the Islamic State</Original>
+                <Spanish>Derrotar a los Islamic State</Spanish>
+                <German>Besiege die Islamic State</German>
                 <Portuguese>Derrote os Inimigos</Portuguese>
-                <Chinesesimp>打败Oplitas</Chinesesimp>
+                <Chinesesimp>打败Islamic State</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_MISSION_DEFEAT_DESC">
-                <Original>Defeat the Oplitas once and for all</Original>
-                <Spanish>Derrotar a los Oplitas de una vez por todas</Spanish>
-                <German>Besiegen Sie die Oplitas ein für allemal</German>
+                <Original>Defeat the Islamic State once and for all</Original>
+                <Spanish>Derrotar a los Islamic State de una vez por todas</Spanish>
+                <German>Besiegen Sie die Islamic State ein für allemal</German>
                 <Portuguese>Derrote todos os inimigos de uma vez por todas</Portuguese>
                 <Chinesesimp>彻底地打败敌军</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_MISSION_DEFEAT_WIN_TEXT">
-                <Original>Oplitas have been finally defeated!    Mission accomplished!</Original>
-                <Spanish>Las Oplitas han sido finalmente derrotados!    Misión cumplida!</Spanish>
-                <German>Die Oplitas wurde endgültig besiegt!    Mission erfüllt!</German>
+                <Original>Islamic State have been finally defeated!    Mission accomplished!</Original>
+                <Spanish>Las Islamic State han sido finalmente derrotados!    Misión cumplida!</Spanish>
+                <German>Die Islamic State wurde endgültig besiegt!    Mission erfüllt!</German>
                 <Portuguese>Todos os inimigos foram derrotados! Missão cumprida!</Portuguese>
                 <Chinesesimp>敌军终于被打败了!    任务完成!</Chinesesimp>
             </Key>
@@ -702,11 +702,11 @@
                 <Chinesesimp>摧毁所有藏匿点</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_MISSION_DESTORY_DESC">
-                <Original>Destroy all the hideouts of the Oplitas</Original>
-                <Spanish>Destruye todos los escondites de los Oplitas</Spanish>
-                <German>Zerstören Sie sämtliche Verstecke der Oplitas</German>
+                <Original>Destroy all the hideouts of the Islamic State</Original>
+                <Spanish>Destruye todos los escondites de los Islamic State</Spanish>
+                <German>Zerstören Sie sämtliche Verstecke der Islamic State</German>
                 <Portuguese>Destrua todos os esconderijos dos inimigos</Portuguese>
-                <Chinesesimp>摧毁所有Oplitas藏匿点</Chinesesimp>
+                <Chinesesimp>摧毁所有Islamic State藏匿点</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_MISSION_DESTORY_WIN_TEXT">
                 <Original>All the hideouts have been destroyed!</Original>
@@ -718,25 +718,25 @@
         </Container>
         <Container name="Mission: Seize the last positions">
             <Key ID="STR_BTC_HAM_MISSION_SEIZE_TITLE">
-                <Original>Seize the last Oplitas positions</Original>
-                <Spanish>Toma las últimas posiciones de Oplitas</Spanish>
+                <Original>Seize the last Islamic State positions</Original>
+                <Spanish>Toma las últimas posiciones de Islamic State</Spanish>
                 <German>Erobern Sie die letzten Stellungen</German>
                 <Portuguese>Conquiste as últimas posições inimigas</Portuguese>
-                <Chinesesimp>夺取最后一个Oplitas据点</Chinesesimp>
+                <Chinesesimp>夺取最后一个Islamic State据点</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_MISSION_SEIZE_MRK">
-                <Original>Seize the last Oplitas fighters positions</Original>
-                <Spanish>Ocupen las últimas posiciones de los Oplitas.</Spanish>
-                <German>Erobern Sie die letzten Positionen der Oplitas-Kämpfer</German>
+                <Original>Seize the last Islamic State fighters positions</Original>
+                <Spanish>Ocupen las últimas posiciones de los Islamic State.</Spanish>
+                <German>Erobern Sie die letzten Positionen der Islamic State-Kämpfer</German>
                 <Portuguese>Conquiste as últimas posições da resistência inimiga</Portuguese>
-                <Chinesesimp>夺取最后一个Oplitas战匪的据点</Chinesesimp>
+                <Chinesesimp>夺取最后一个Islamic State战匪的据点</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_MISSION_SEIZE_DESC">
-                <Original>Seize the last positions held by Oplitas fighters</Original>
-                <Spanish>Ocupen las últimas posiciones de resistencia de los Oplitas.</Spanish>
-                <German>Erobern Sie die letzten Stellungen der Oplitas-Kämpfer zurück.</German>
+                <Original>Seize the last positions held by Islamic State fighters</Original>
+                <Spanish>Ocupen las últimas posiciones de resistencia de los Islamic State.</Spanish>
+                <German>Erobern Sie die letzten Stellungen der Islamic State-Kämpfer zurück.</German>
                 <Portuguese>Conquiste as últimas posições da retarguarda inimiga</Portuguese>
-                <Chinesesimp>夺取最后一个被Oplitas战匪占领的据点</Chinesesimp>
+                <Chinesesimp>夺取最后一个被Islamic State战匪占领的据点</Chinesesimp>
             </Key>
         </Container>
     </Package>
@@ -766,7 +766,7 @@
                 <Chinesesimp>抓捕敌方军官</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_SIDE_CAPOFF_DESC">
-                <Original>Capture an officer travelling in a concealed convoy, then bring him to the base for interrogation. He is responsible for terrorizing local population!</Original>
+                <Original>Capture an officer travelling in a concealed convoy, then bring him to the base for interrogation. He is responsible for terrorizing the local population!</Original>
                 <Spanish>Capturar a un oficial que viaja en un convoy oculto y luego llevarlo a la base para interrogarlo. ¡Él es el responsable de aterrorizar a la población local!</Spanish>
                 <German>Ein feindlicher Offizier ist in einem getarnten Konvoi unterwegs. Finden und bringen Sie ihn in die Basis für weitere Befragungen. Er ist einer der Hauptverantwortlichen für die Terrorisierung der lokalen Bevölkerung!</German>
                 <Portuguese>Um Oficial está viajando em um comboio camuflado. Encontre e traga-o para base para interrogatório. Ele é um dos principais responsáveis por aterrorizar a população local!</Portuguese>
@@ -796,7 +796,7 @@
                 <Chinesesimp>摧毁位于 %1 地区的检查站</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_SIDE_CHECKPOINT_DESC">
-                <Original>Checkpoints have been located in %1. Local population is asking for your help to destroy ammo box in all checkpoints!</Original>
+                <Original>Checkpoints have been located in %1. The local population is asking for your help to destroy military supplies at all checkpoints!</Original>
                 <Spanish>Los puntos de control se han localizado en %1. La población local está pidiendo su ayuda para destruir la caja de municiones en todos los puntos de control!</Spanish>
                 <German>Kontrollpunkt wurden in der Nähe von %1 gesichtet. Die lokale Bevölkerung bittet Sie darum, alle Munitionskisten und den jeweiligen Kontrollpunkt zu beseitigen!</German>
                 <Portuguese>Os pontos de verificação foram localizados em %1. A população local está pedindo sua ajuda para destruidir todas as caixas de munições em todos os pontos de verificação!</Portuguese>
@@ -819,14 +819,14 @@
         </Container>
         <Container name="Civ treatment boat">
             <Key ID="STR_BTC_HAM_SIDE_CIVTREATBOAT_TITLE">
-                <Original>Medical emergency call on sea</Original>
+                <Original>Medical emergency call at sea</Original>
                 <Spanish>Emergencia médica en el mar</Spanish>
                 <German>Medizinischer Notruf auf hoher See</German>
                 <Portuguese>Chamada de emergência médica em alto mar</Portuguese>
                 <Chinesesimp>海上紧急医疗求助</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_SIDE_CIVTREATBOAT_DESC">
-                <Original>A civilian is calling for a medic in %1, treat and wait for patient stabilization.</Original>
+                <Original>A civilian requires medical assistance in %1, treat and wait for patient stabilization.</Original>
                 <Spanish>Un civil está llamando a un médico en %1, tratar y esperar la estabilización del paciente.</Spanish>
                 <German>Ein Zivilist aus %1 hat einen Notruf abgesetzt. Behandeln Sie ihn umd warten Sie darauf, dass sich sein Zustand stabilisiert.</German>
                 <Portuguese>Um civil fez uma chamada médica em %1. Trate-o e aguarde a estabilização dele.</Portuguese>
@@ -863,7 +863,7 @@
                 <Chinesesimp>位于 %1 地区的紧急医疗求助</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_SIDE_CIVTREAT_DESC">
-                <Original>A civilian is calling for a medic in %1, treat and wait for patient stabilization </Original>
+                <Original>A civilian is requesting medical assistance in %1, treat and wait for patient stabilization </Original>
                 <Spanish>Un civil está llamando a un médico en %1, tratar y esperar la estabilización del paciente</Spanish>
                 <German>Ein Zivilist aus %1 hat einen Notruf abgesetzt. Behandeln Sie ihn umd warten Sie darauf, dass sich sein Zustand stabilisiert </German>
                 <Portuguese>Um civil fez uma chamada médica em %1. Trate-o e aguarde a estabilização dele.</Portuguese>
@@ -900,18 +900,18 @@
                 <Chinesesimp>车队终点</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_SIDE_CONVOY_TITLE">
-                <Original>Destroy Oplitas convoy attacking %1</Original>
-                <Spanish>Destruir el convoy de Oplitas atacando %1</Spanish>
+                <Original>Destroy Islamic State convoy attacking %1</Original>
+                <Spanish>Destruir el convoy de Islamic State atacando %1</Spanish>
                 <German>Bewaffneter Konvoi unterwegs nach %1</German>
                 <Portuguese>Destrua o comboio armado inimigo %1</Portuguese>
-                <Chinesesimp>摧毁进攻 %1 地区的Oplitas车队</Chinesesimp>
+                <Chinesesimp>摧毁进攻 %1 地区的Islamic State车队</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_SIDE_CONVOY_DESC">
-                <Original>An armed Oplitas convoy is going to attack %1. Local population is asking for your help to destroy it before it gets there!</Original>
-                <Spanish>Un convoy armado de Oplitas va a atacar %1. La población local está pidiendo su ayuda para destruirlo antes de que llegue allí!</Spanish>
-                <German>Ein bewaffneter Konvoi der Oplitas will %1 angreifen. Schützen Sie die Bevölkerung in dem Sie den Konvoi zerstören bevor er dort ankommt</German>
+                <Original>An armed Islamic State convoy is going to attack %1. Local population is asking for your help to destroy it before it gets there!</Original>
+                <Spanish>Un convoy armado de Islamic State va a atacar %1. La población local está pidiendo su ayuda para destruirlo antes de que llegue allí!</Spanish>
+                <German>Ein bewaffneter Konvoi der Islamic State will %1 angreifen. Schützen Sie die Bevölkerung in dem Sie den Konvoi zerstören bevor er dort ankommt</German>
                 <Portuguese>Um comboio armado inimigo vai atacar %1. Proteja a população local dentruindo o comboio antes que ele chegue</Portuguese>
-                <Chinesesimp>一队Oplitas武装车队将要攻打 %1。当地居民请求在其抵达之前将其摧毁!</Chinesesimp>
+                <Chinesesimp>一队Islamic State武装车队将要攻打 %1。当地居民请求在其抵达之前将其摧毁!</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_SIDE_CONVOY_FAILED_TEXT">
                 <Original>The armed convoy was not destroyed</Original>
@@ -988,7 +988,7 @@
                 <Chinesesimp>在 %1 附近解救人质</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_SIDE_HOSTAGE_DESC">
-                <Original>Liberate a civilian hostage in %1. The Local population is asking for your help!</Original>
+                <Original>Liberate a civilian hostage in %1. Islamic State has taken a civilian hostage!</Original>
                 <Spanish>Liberar a un rehén civil en %1. La población local está pidiendo su ayuda!</Spanish>
                 <German>Befreien Sie eine Geisel in %1 aus den Händen der Terroristen. Die lokale Bevölkerung bittet um Ihre Hilfe!</German>
                 <Portuguese>Liberte o civil refém em %1 das mãos dos terroristas. A população local está pedindo sua ajuda!</Portuguese>
@@ -1048,7 +1048,7 @@
                 <Chinesesimp>在 %1 附近搜救坠机飞行员</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_SIDE_RESC_DESC">
-                <Original>MAYDAY-MAYDAY, a pilot crashed his helicopter near %1. Command is asking for your help to rescue and bring him back to base!</Original>
+                <Original>MAYDAY-MAYDAY, a pilot crashed his helicopter near %1. Military Command is asking for your help to rescue and bring him back to base!</Original>
                 <Spanish>MAYDAY-MAYDAY, un piloto estrelló su helicóptero cerca de %1. ¡El Comando está pidiendo su ayuda para rescatarlo y traerlo de vuelta a la base!</Spanish>
                 <German>MAYDAY-MAYDAY, ein Pilot stürzte mit seinem Helikopter in der Nähe von %1 ab. Sie haben den Befehl ihn zu retten und sicher zur Basis zurückzubringen!</German>
                 <Portuguese>MAYDAY-MAYDAY, um piloto caiu com seu helicóptero próximo a %1. O comando solicitou sua ajuda para resgatá-lo e trazê-lo de volta a base!</Portuguese>
@@ -1078,7 +1078,7 @@
                 <Chinesesimp>在 %1 发放救援补给</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_SIDE_SUPPLIES_DESC">
-                <Original>The citizens of %1 are on the brink starving to death, bring them some supplies present at the logistic point!</Original>
+                <Original>The citizens of %1 are on the brink starving to death, transfer supplies from the logistic point!</Original>
                 <Spanish>Los ciudadanos de %1 están al borde de la muerte de hambre, ¡tráiganles algunos suministros presentes en el punto logístico!</Spanish>
                 <German>Die Bürger von %1 sind am verhungern. Bingen Sie ihnen Vorräte. Die Vorräte(Supplies) können beim Logistikpunkt angefordert werden.</German>
                 <Portuguese>O população de %1 estão passando fome! Forneça suprimentos! Os suprimentos podem ser solicitados no ponto logístico.</Portuguese>
@@ -1108,11 +1108,11 @@
                 <Chinesesimp>在 %1 地区摧毁信号塔</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_SIDE_TOWER_DESC">
-                <Original>A Oplitas communications tower has been located in %1. Local population is asking for your help to destroy it! (Use one M183 explosive satchel)</Original>
-                <Spanish>En %1 se ha ubicado una torre de comunicaciones de Oplitas. La población local está pidiendo tu ayuda para destruirlo! (Use un explosivo satchel M183)</Spanish>
-                <German>Ein Funkturm der Oplitas befindet sich in %1. Die lokale Bevölkerung bittet darum diesen zu zerstören! (Nutzen Sie die M183 Sprengladungen)</German>
+                <Original>A Islamic State communications tower has been located in %1. Local population is asking for your help to destroy it! (Use one M183 explosive satchel)</Original>
+                <Spanish>En %1 se ha ubicado una torre de comunicaciones de Islamic State. La población local está pidiendo tu ayuda para destruirlo! (Use un explosivo satchel M183)</Spanish>
+                <German>Ein Funkturm der Islamic State befindet sich in %1. Die lokale Bevölkerung bittet darum diesen zu zerstören! (Nutzen Sie die M183 Sprengladungen)</German>
                 <Portuguese>A torre de comunicação inimiga foi localizada em %1. A população local está pedindo sua ajuda para destruí-las. (Use a mochila de explosivos M183)</Portuguese>
-                <Chinesesimp>在 %1 地区发现了一座 Oplitas 通讯信号塔。当地居民请求您将其摧毁。(使用一个M183炸药包)</Chinesesimp>
+                <Chinesesimp>在 %1 地区发现了一座 Islamic State 通讯信号塔。当地居民请求您将其摧毁。(使用一个M183炸药包)</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_SIDE_TOWER_FAILED_TEXT">
                 <Original>The tower was not destroyed</Original>
@@ -1208,11 +1208,11 @@
                 <Chinesesimp>解放 %1</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_SIDE_CONQUER_DESC">
-                <Original>%1 has been conquered by the Oplitas! The Local population is being terrorized, they are asking for help!</Original>
-                <Spanish>%1 ha sido conquistado por los Oplitas! La población local está siendo aterrorizada, están pidiendo ayuda!</Spanish>
-                <German>%1 wurde von der Oplitas erobert! Die lokale Bevölkerung wird terrorisiert, greifen Sie ein!</German>
+                <Original>%1 has been conquered by the Islamic State! The Local population is being terrorized, they are asking for help!</Original>
+                <Spanish>%1 ha sido conquistado por los Islamic State! La población local está siendo aterrorizada, están pidiendo ayuda!</Spanish>
+                <German>%1 wurde von der Islamic State erobert! Die lokale Bevölkerung wird terrorisiert, greifen Sie ein!</German>
                 <Portuguese>Os inimigos estão conquistando a cidade %1. A população local está sendo aterrorizada. Ajude-os!</Portuguese>
-                <Chinesesimp>%1 已被Oplitas占领! 当地居民受到恐吓, 他们正在请求帮助!</Chinesesimp>
+                <Chinesesimp>%1 已被Islamic State占领! 当地居民受到恐吓, 他们正在请求帮助!</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_SIDE_CONQUER_FAILED_TEXT">
                 <Original>The city was not conquered</Original>
@@ -1450,7 +1450,7 @@
     <Package name="Conversations">
         <Container name="Conversations: Info">
             <Key ID="STR_BTC_HAM_CON_INFO_ASKREP_NOINTER">
-                <Original>I can't understand what is saying</Original>
+                <Original>I can't understand what they are saying</Original>
                 <Spanish>No puedo entender lo que está diciendo</Spanish>
                 <German>Ich verstehe nicht was Sie sagen</German>
                 <Portuguese>Não consigo entender o que está dizendo</Portuguese>
@@ -1520,21 +1520,21 @@
                 <Chinesesimp>我好痛苦啊!</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_CON_INFO_ASK_WOUNDED3">
-                <Original>Injure!</Original>
+                <Original>Help!</Original>
                 <Spanish>¡Lesionado!</Spanish>
                 <German>Ich bin Verletzt!</German>
                 <Portuguese>Eu estou ferido!</Portuguese>
                 <Chinesesimp>我受伤了!</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_CON_INFO_ASK_WOUNDED4">
-                <Original>I have open wound!</Original>
+                <Original>I have an open wound!</Original>
                 <Spanish>¡Tengo una herida abierta!</Spanish>
                 <German>I habe offene Wunden!</German>
                 <Portuguese>Eu tenho feridas abertas!</Portuguese>
                 <Chinesesimp>我受了外伤!</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_CON_INFO_ASK_ALLREADYANS">
-                <Original>I already answered to your question!</Original>
+                <Original>I already answered your question!</Original>
                 <Spanish>¡Ya respondí a tu pregunta!</Spanish>
                 <German>Ich habe Ihnen bereits alles gesagt!</German>
                 <Portuguese>Eu já respondi a sua pergunta!</Portuguese>
@@ -1555,14 +1555,14 @@
                 <Chinesesimp>我会在地图上给你一些提示</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_CON_INFO_ASKHIDEOUT_TRUE">
-                <Original>I saw a lot of militia activity towards %1, %2 meter from here. Probably there is an hideout!</Original>
+                <Original>I saw a lot of militia activity towards %1, %2 meter from here. I'm wondering if there is a hideout nearby!</Original>
                 <Spanish>Vi mucha actividad de la milicia en direccion a %1, %2 metros de aqui. ¡Probablemente haya un escondite!</Spanish>
                 <German>Ich habe mehrer bewaffnete Personen in Richtung %1, ca. %2m entfernt, gesehen. Möglicherweise ist dort ein Versteck!</German>
                 <Portuguese>Eu vi várias pessoas armadas indo para %1, a cerca de %2 metros distância. Talvez haja um esconderijo!</Portuguese>
                 <Chinesesimp>我曾经在朝着 %1 的方向见到过大量民兵活动, 离这大概有 %2 米。那可能有一个藏匿点!</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_CON_INFO_ASKHIDEOUT_FALSE">
-                <Original>There are no hideout around here!</Original>
+                <Original>There are no hideouts around here!</Original>
                 <Spanish>¡No hay escondites por aquí!</Spanish>
                 <German>Hier in der Gegend gibt es keine Verstecke!</German>
                 <Portuguese>Não há esconderijo por aqui!</Portuguese>
@@ -1778,7 +1778,7 @@
                 <Chinesesimp>这具尸体没有任何情报</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_O_COMMON_SHOWHINTS_4">
-                <Original>Found intels about an ammo cache and an hideout! Map updated</Original>
+                <Original>Found intel about an ammo cache and an hideout! Map updated</Original>
                 <Spanish>¡Encontré información sobre un depósito de municiones y un escondite! Mapa actualizado</Spanish>
                 <German>Informationen über ein Waffenlager und ein Versteck gefunden! Karte aktualisiert</German>
                 <Portuguese>Encontrada informação sobre depósito de armas e esconderijo! Mapa atualizado</Portuguese>
@@ -1792,11 +1792,11 @@
                 <Chinesesimp>发现了关于藏匿点的情报! 地图已更新</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_O_COMMON_SHOWHINTS_6">
-                <Original>In the last hideout we found important intel about all the cities occupied by the Oplitas! Size the last positions held by the enemies and defeat them once and for all</Original>
-                <Spanish>En el último escondite encontramos información importante sobre todas las ciudades ocupadas por los Oplitas! Evalúa las últimas posiciones de los enemigos y derrótalos de una vez por todas.</Spanish>
-                <German>In the last hideout we found important intel about all the cities occupied by the Oplitas! Size the last positions held by the enemies and defeat them once and for all</German>
+                <Original>In the last hideout we found important intel about all the cities occupied by the Islamic State! Seize the last positions held by the enemies and defeat them once and for all</Original>
+                <Spanish>En el último escondite encontramos información importante sobre todas las ciudades ocupadas por los Islamic State! Evalúa las últimas posiciones de los enemigos y derrótalos de una vez por todas.</Spanish>
+                <German>In the last hideout we found important intel about all the cities occupied by the Islamic State! Size the last positions held by the enemies and defeat them once and for all</German>
                 <Portuguese>No último esconderijo encontramos informações importantes sobre as cidades ocupadas pelos inimigos! Conquites as últimas posições dos inimigos e derrote-os de uma vez por todas</Portuguese>
-                <Chinesesimp>在上个敌军藏匿点中, 我们发现了写有Oplitas占领的全部城市的重要情报! 夺取最后一个敌军据点, 一举消灭他们! </Chinesesimp>
+                <Chinesesimp>在上个敌军藏匿点中, 我们发现了写有Islamic State占领的全部城市的重要情报! 夺取最后一个敌军据点, 一举消灭他们! </Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_O_COMMON_SHOWHINTS_7">
                 <Original>%1 has been deployed!</Original>
@@ -1903,9 +1903,9 @@
         </Container>
         <Container name="Other: Endmission ">
             <Key ID="STR_BTC_HAM_O_COMMON_ENDMISSION">
-                <Original>All the hideouts are destroyed, finally the Oplitas has been defeated! Mission accomplished</Original>
-                <Spanish>Todos los escondites fueron destruidos, finalmente el Oplitas han sido derrotados! Misión cumplida</Spanish>
-                <German>Alle Verstecke sind zerstört, nun sind die Oplitas besiegt! Mission erfüllt</German>
+                <Original>All the hideouts are destroyed, finally the Islamic State has been defeated! Mission accomplished</Original>
+                <Spanish>Todos los escondites fueron destruidos, finalmente el Islamic State han sido derrotados! Misión cumplida</Spanish>
+                <German>Alle Verstecke sind zerstört, nun sind die Islamic State besiegt! Mission erfüllt</German>
                 <Portuguese>Todos os esconderijos foram destruídos, finalmente os inimigos foram derrotados! Missão cumprida</Portuguese>
                 <Chinesesimp>所有敌军藏匿点已被摧毁, 敌军终于被打败了! 任务完成</Chinesesimp>
             </Key>
@@ -1926,7 +1926,7 @@
                 <Chinesesimp>藏匿点 %1 已摧毁</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_O_EH_HDCACHE_MRK">
-                <Original>Cached %1 destroyed</Original>
+                <Original>Cache %1 destroyed</Original>
                 <Spanish>Cache %1 destruído</Spanish>
                 <German>Waffenlager %1 wurde zerstört</German>
                 <Portuguese>Depósito %1 destruído</Portuguese>
