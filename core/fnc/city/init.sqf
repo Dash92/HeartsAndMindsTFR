@@ -57,10 +57,10 @@ for "_i" from 0 to (count _locations - 1) do {
 
         if (btc_city_blacklist find _name >= 0) exitWith {};
 
-        /*
+        
         //if you want a safe area
-        if ((getMarkerPos "YOUR_MARKER_AREA") inArea [_position, 500, 500, 0, false]) exitWith {};
-        */
+        if ((getMarkerPos "YOUR_MARKER_AREA") inArea [_position, 350, 500, 0, false]) exitWith {};
+        
 
         if (_radius_x < 80 || _radius_y < 80) then {
             _radius_x = 80;
