@@ -520,14 +520,14 @@ switch (_p_en) do {
 };
 
 //Rep
-btc_rep_bonus_cache = 100;
+btc_rep_bonus_cache = 75;
 btc_rep_bonus_civ_hh = 3;
 btc_rep_bonus_disarm = 25;
-btc_rep_bonus_hideout = 200;
+btc_rep_bonus_hideout = 100;
 btc_rep_bonus_mil_killed = 0.25;
 
 btc_rep_malus_civ_hd = - 10;
-btc_rep_malus_civ_killed = - 10;
+btc_rep_malus_civ_killed = - 25;
 btc_rep_malus_civ_firenear = - 5;
 btc_rep_malus_player_respawn = - 10;
 btc_rep_malus_veh_killed = - 25;
