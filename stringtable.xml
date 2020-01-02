@@ -1450,7 +1450,7 @@
     <Package name="Conversations">
         <Container name="Conversations: Info">
             <Key ID="STR_BTC_HAM_CON_INFO_ASKREP_NOINTER">
-                <Original>I can't understand what they are saying</Original>
+                <Original>I can't understand what you are saying</Original>
                 <Spanish>No puedo entender lo que está diciendo</Spanish>
                 <German>Ich verstehe nicht was Sie sagen</German>
                 <Portuguese>Não consigo entender o que está dizendo</Portuguese>
@@ -1492,7 +1492,7 @@
                 <Chinesesimp>长官, 你的声誉</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_CON_INFO_ASKREP_ASK2">
-                <Original>Hello ! Your reputation is</Original>
+                <Original>Hello! Your reputation is</Original>
                 <Spanish>Hola! su reputación es</Spanish>
                 <German>Hallo ! Ihr Ansehen ist</German>
                 <Portuguese>Olá! Sua reputação é</Portuguese>
@@ -1641,7 +1641,7 @@
                 <Chinesesimp>我恨你! 滚出去!</Chinesesimp>
             </Key>
             <Key ID="STR_BTC_HAM_CON_INT_ORDERS_NEG2">
-                <Original>Get Out of my car ! You are not welcome.</Original>
+                <Original>Get Out of my car! You are not welcome.</Original>
                 <Spanish>¡Fuera de mi coche! No eres bienvenido.</Spanish>
                 <German>Raus aus meinem Auto! Du bist hier nicht willkommen.</German>
                 <Portuguese>Saia do meu carro! Você não é bem-vindo.</Portuguese>
