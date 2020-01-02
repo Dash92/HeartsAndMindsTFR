@@ -34,3 +34,19 @@ setTimeMultiplier btc_p_acctime;
 if (btc_p_side_mission_cycle) then {
     [true] spawn btc_fnc_side_create;
 };
+
+_sides = [west];//gates will open only for units of those sides
+
+_gates = [0,0,0] nearObjects ["Land_BarGate_F",worldsize * 3];
+
+{
+	_automate = [_x,_sides] spawn {
+		params ["_gate","_sides"];
+		while {alive _gate} do {
+			waitUntil {sleep 0.25; count (getposatl _gate nearEntities 10 select {side _x in _sides}) > 0;};
+			_gate animate ["Door_1_rot", 1];
+			waitUntil {sleep 10; count (getposatl _gate nearEntities 10 select {side _x in _sides}) == 0;};
+			_gate animate ["Door_1_rot", 0];
+		}
+	}
+} forEach _gates;
