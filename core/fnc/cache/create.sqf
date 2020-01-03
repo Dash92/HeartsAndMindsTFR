@@ -53,3 +53,11 @@ if (btc_debug) then {
     _marker setMarkerText format ["Cache %1", btc_cache_n];
     _marker setMarkerSize [0.8, 0.8];
 };
+
+sleep 600;
+
+_cacheMarkerPos = [btc_cache_obj, 5, 20, 0, 0, 25, 0] call BIS_fnc_findSafePos;
+_cacheMarker = createMarker ["CacheMarker_01", _cacheMarkerPos];
+"CacheMarker_01" setMarkerShape "ELLIPSE";
+"CacheMarker_01" setMarkerColor "ColorRed";
+"CacheMarker_01" setMarkerSize [20, 20]; 
