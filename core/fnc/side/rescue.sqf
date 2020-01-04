@@ -48,6 +48,16 @@ _heli setVariable ["ace_cookoff_enableAmmoCookoff", false, true];
 _heli setDamage 1;
 _heli enableSimulation false;
 _heli setPos [getPosASL _heli select 0, getPosASL _heli select 1, 0 - 1.5];
+
+
+_attackPos_01 = [_heli, 1000, 1500, 5, 0, 25, 0] call BIS_fnc_findSafePos;
+_attackGroup_01 = [_attackPos_01, east, (configfile >> "CfgGroups" >> "East" >> "CFP_O_IS" >> "Infantry" >> "cfp_o_grp_is_inf_fire_team")] call BIS_fnc_spawnGroup;
+_attackwp_01 = _attackGroup_01 addWaypoint [position _heli, 0];
+
+_attackPos_02 = [_heli, 1000, 1500, 5, 0, 25, 0] call BIS_fnc_findSafePos;
+_attackGroup_02 = [_attackPos_02, east, (configfile >> "CfgGroups" >> "East" >> "CFP_O_IS" >> "Infantry" >> "cfp_o_grp_is_inf_fire_team")] call BIS_fnc_spawnGroup;
+_attackwp_02 = _attackGroup_02 addWaypoint [position _heli, 0];
+
 private _pitch = if (random 1 > 0.5) then {
     random 40
 } else {
