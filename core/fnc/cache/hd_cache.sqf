@@ -70,8 +70,6 @@ if (isNil {_cache getVariable "btc_hd_cache"} && {_explosive} && {_damage > 0.6}
     btc_cache_info = btc_info_cache_def;
     btc_cache_markers = [];
 
-    deleteMarker "CacheMarker_01";
-
     //Notification
     [0] remoteExec ["btc_fnc_show_hint", 0];
 
