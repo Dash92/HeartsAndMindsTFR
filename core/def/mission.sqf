@@ -192,7 +192,7 @@ if (isServer) then {
     btc_type_medicals = _allclass select {_x isKindOf "MedicalGarbage_01_Base_F"};
 
     //BTC Vehicles in missions.sqm
-    btc_vehicles = [btc_veh_1, btc_veh_2, btc_veh_3, btc_veh_4, btc_veh_5, btc_veh_6, btc_veh_7, btc_veh_8, btc_veh_9, btc_veh_10, btc_veh_11, btc_veh_12, btc_veh_13, btc_veh_14, btc_veh_15];
+    btc_vehicles = [btc_veh_1, btc_veh_2, btc_veh_3, btc_veh_4, btc_veh_5, btc_veh_6, btc_veh_7, btc_veh_8, btc_veh_9, btc_veh_10, btc_veh_11, btc_veh_12, btc_veh_13, btc_veh_14, btc_veh_15, btc_veh_16, btc_veh_17, btc_veh_18];
     btc_helo = [btc_helo_1];
 
     // The two arrays below are prefixes of buildings and their multiplier.
@@ -272,7 +272,7 @@ btc_info_cache_ratio = _cache_info_ratio;
 btc_info_hideout_radius = 4000;
 
 //Supplies
-btc_supplies_mat = "Land_Cargo20_IDAP_F";
+btc_supplies_mat = "Land_Cargo10_IDAP_F";
 
 //Containers
 btc_containers_mat = ["Land_Cargo20_military_green_F", "Land_Cargo40_military_green_F"];
@@ -520,14 +520,14 @@ switch (_p_en) do {
 };
 
 //Rep
-btc_rep_bonus_cache = 100;
+btc_rep_bonus_cache = 75;
 btc_rep_bonus_civ_hh = 3;
 btc_rep_bonus_disarm = 25;
-btc_rep_bonus_hideout = 200;
+btc_rep_bonus_hideout = 100;
 btc_rep_bonus_mil_killed = 0.25;
 
 btc_rep_malus_civ_hd = - 10;
-btc_rep_malus_civ_killed = - 10;
+btc_rep_malus_civ_killed = - 25;
 btc_rep_malus_civ_firenear = - 5;
 btc_rep_malus_player_respawn = - 10;
 btc_rep_malus_veh_killed = - 25;
