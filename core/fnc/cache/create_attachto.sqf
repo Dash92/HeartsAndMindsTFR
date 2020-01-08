@@ -10,7 +10,7 @@ Parameters:
     _holder - Object attached to _object [Object]
     _pos_type - Position ("TOP", "FRONT", "CORNER_L", "CORNER_R") where holder will be attached to object. [String]
     _offSet - Add verticale offset. [Number]
-    
+
 Returns:
 
 Examples:
@@ -26,7 +26,7 @@ Author:
 params [
     ["_object", objNull, [objNull]],
     ["_holder", objNull, [objNull]],
-	["_pos_type", "", [""]],
+    ["_pos_type", "", [""]],
     ["_offSet", 0, [0]]
 ];
 

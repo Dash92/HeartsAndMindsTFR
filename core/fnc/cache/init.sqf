@@ -6,14 +6,14 @@ Description:
     Initialise the ammo cache system with all necessary variable and start the search of a suitable position for it.
 
 Parameters:
-	    _cache_n - Cache number. [Number]
+    _cache_n - Cache number. [Number]
     _cache_pictures - Array of building type. [Array]
-    
+
 Returns:
 
 Examples:
     (begin example)
-	        [0, btc_cache_pictures] call btc_fnc_cache_init;
+        [0, btc_cache_pictures] call btc_fnc_cache_init;
     (end)
 
 Author:

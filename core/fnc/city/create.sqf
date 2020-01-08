@@ -12,7 +12,7 @@ Parameters:
     _radius_x - The city radius along x. [Number]
     _radius_y - The city radius along y. [Number]
     _has_en - If the city is occupied by enemies. [Boolean]
-	_id - ID of the city in the cfgworlds. [Number]
+    _id - ID of the city in the cfgworlds. [Number]
 
 Returns:
     _city - City created [Onject]
@@ -34,7 +34,7 @@ params [
     ["_radius_x", 0, [0]],
     ["_radius_y", 0, [0]],
     ["_has_en", false, [false]],
-	["_id", count btc_city_all, [0]]
+    ["_id", count btc_city_all, [0]]
 ];
 
 private _city = createSimpleObject ["CBA_NamespaceDummy", [_position select 0, _position select 1, getTerrainHeightASL _position], true];

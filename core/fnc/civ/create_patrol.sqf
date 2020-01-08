@@ -76,9 +76,9 @@ _veh setVariable ["btc_crews", _group];
 [_veh, "HandleDamage", "btc_fnc_rep_hd"] call btc_fnc_eh_persistOnLocalityChange;
 if (_p_chem) then {
     _veh addEventHandler ["GetIn", {
-	        [_this select 0, _this select 2] call btc_fnc_chem_propagate;
-	        _this
-	    }];
+        [_this select 0, _this select 2] call btc_fnc_chem_propagate;
+        _this
+    }];
 };
 
 [_group, [_start_city, _active_city], _area, _pos_isWater] call btc_fnc_patrol_init;

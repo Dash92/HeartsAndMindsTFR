@@ -9,7 +9,7 @@ Parameters:
     _cache_pos - Position of the cache. [Array]
     _p_chem - Create a chemical cache. [Boolean]
     _probilityOfChemical - Probability to create a chemical cache. [Number]
-    
+
 Returns:
 
 Examples:
@@ -62,7 +62,7 @@ if (_isChem) then {
 
         private _pos_type = selectRandom _pos_type_array;
         _pos_type_array = _pos_type_array - [_pos_type];
-	        [btc_cache_obj, _holder, _pos_type] call btc_fnc_cache_create_attachto;
+        [btc_cache_obj, _holder, _pos_type] call btc_fnc_cache_create_attachto;
     };
 };
 
@@ -71,9 +71,9 @@ if (btc_debug_log) then {
 };
 
 if (btc_debug) then {
-    [format ["in %1", btc_cache_pos], __FILE__, [btc_debug, false]] call btc_fnc_debug_message;
+    [format ["in %1", _cache_pos], __FILE__, [btc_debug, false]] call btc_fnc_debug_message;
     //Marker
-	    private _marker = createMarker [format ["%1", _cache_pos], _cache_pos];
+    private _marker = createMarker [format ["%1", _cache_pos], _cache_pos];
     _marker setMarkerType "mil_unknown";
     _marker setMarkerText format ["Cache %1", btc_cache_n];
     _marker setMarkerSize [0.8, 0.8];

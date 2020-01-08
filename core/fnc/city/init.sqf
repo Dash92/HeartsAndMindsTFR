@@ -7,7 +7,7 @@ Description:
 
 Parameters:
     _is_free_probability - Probability for a city to have military. [Number]
-    
+
 Returns:
 
 Examples:

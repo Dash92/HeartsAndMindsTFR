@@ -10,7 +10,7 @@ Parameters:
 
 Returns:
     - Position of the cache. [Array]
-    
+
 Examples:
     (begin example)
         [] call btc_fnc_cache_find_pos;

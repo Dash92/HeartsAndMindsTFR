@@ -6,7 +6,7 @@ Description:
     Generate a loadout from an array of defined loadout depending on trait, medical level, color and hour of the day.
 
 Parameters:
-    _type - Type of loadout: 0 - Rifleman, 1 - Medic Basic, 2 - Medic Adv, 3 - Repair, 4 - Engineer, 5 - Anti-Tank, 6 - Anti Air, 7 - Sniper, 8 - Machine gunner. [Number]
+    _type - Type of loadout: 0 - Rifleman, 1 - Medic, 2 - Repair, 3 - Engineer, 4 - Anti-Tank, 5 - Anti Air, 6 - Sniper, 7 - Machine gunner. [Number]
     _color - Color of skin loadout: 0 - Desert, 1 - Tropic, 2 - Black, 3 - Forest. [Number]
     _isDay - Select night (false) or day (true) loadout. [Boolean]
     _medicalParameters - Select the correct medical stuff depends on ACE3 medical parameters. [Array]
@@ -20,7 +20,7 @@ Examples:
         _rifleman_loadout = [0] call btc_fnc_arsenal_loadout;
     (end)
     (begin example)
-            [] spawn {
+        [] spawn {
             {
                 private _i = _x;
                 {
@@ -33,7 +33,7 @@ Examples:
             } forEach [0,1,2,3,4,5,6,7];
         };
     (end)
-    
+
 Author:
     Vdauphin
 
@@ -43,9 +43,9 @@ params [
     ["_type", 0, [0]],
     ["_color", -1, [0]],
     ["_isDay", 0, [0, false]],
+    ["_medicalParameters", [ace_medical_treatment_advancedBandages, ace_medical_treatment_locationEpinephrine, ace_medical_treatment_locationSurgicalKit, ace_medical_treatment_locationPAK, ace_medical_fractures], [[]]],
     ["_arsenal_loadout", btc_arsenal_loadout, [[]]]
 ];
-(_arsenal_loadout apply {_x select _color}) params ["_uniform", "_vest", "_helmet", "_hood", "_laserdesignator", "_night_vision", "_weapon", "_weapon_sniper", "_weapon_machineGunner", "_bipod", "_pistol", "_launcher_AT", "_launcher_AA", "_backpack", "_backpack_big", "_radio"];
 
 if (_color < 0) then {
     _color = if (sunOrMoon isEqualTo 0) then {
@@ -97,10 +97,10 @@ _cargo_uniform append _medical;
 
 //Choose appropriats weapon/optics depends on _type
 private _array = switch (_type) do {
-    case 7: {
+    case 6: {
         [_weapon_sniper, ["ACE_optic_Hamr_2D", "ACE_optic_LRPS_2D"]];
     };
-    case 8: {
+    case 7: {
         [_weapon_machineGunner];
     };
     default {
@@ -108,13 +108,13 @@ private _array = switch (_type) do {
     };
 };
 _array params ["_weapon", ["_optics", ["ACE_optic_Hamr_2D", "ACE_optic_Arco_2D"], [[]]]];
-private _bipod_item = ["", _bipod] select (_type in [7, 8]);
+private _bipod_item = ["", _bipod] select (_type in [6, 7]);
 
 //Generate magazines and boulets count
 private _cfgWeapons = configFile >> "CfgWeapons";
 private _cfgMagazines = configFile >> "CfgMagazines";
-private _launcher = ["", _launcher_AT] select (_type isEqualTo 5);
-private _launcher = [_launcher, _launcher_AA] select (_type isEqualTo 6);
+private _launcher = ["", _launcher_AT] select (_type isEqualTo 4);
+private _launcher = [_launcher, _launcher_AA] select (_type isEqualTo 5);
 ([_weapon, _pistol, _launcher] apply {getArray (_cfgWeapons >> _x >> "magazines")}) params ["_weaponMagazines", "_pistolMagazines", "_launcherMagazines"];
 ([_weaponMagazines, _pistolMagazines, _launcherMagazines] apply {_x select 0}) params ["_weaponMagazine", "_pistolMagazine", ["_launcherMagazine", ""]];
 ([_weaponMagazine, _pistolMagazine, _launcherMagazine] apply {getNumber (_cfgMagazines >> _x >> "count")}) params ["_weaponCount", "_pistolCount", "_launcherCount"];
@@ -139,7 +139,7 @@ if (_PAK < 4) then {
     _backpackMedical pushBack ["ACE_personalAidKit", 1];
 };
 if (_fractures > 0) then {
-	    _backpackMedical pushBack ["ACE_splint", 3];
+    _backpackMedical pushBack ["ACE_splint", 3];
 };
 
 private _cargos = [
@@ -176,4 +176,4 @@ if (_isDay) then {
         _cargos select _type, _helmet, _hood, _binocular_array,
         ["ItemMap", "B_UavTerminal", _radio_item, "ItemCompass", "ChemicalDetector_01_watch_F", _night_vision]
     ]
-};
+}

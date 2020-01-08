@@ -52,7 +52,6 @@ btc_city_remaining = [];
 waitUntil {sleep 15; (btc_city_remaining isEqualTo [])};
 
 ["btc_m", "SUCCEEDED"] call btc_fnc_task_setState;
-2 call btc_fnc_task_set_done;
 
 //END
 [] remoteExec ["btc_fnc_end_mission", 0, true];
