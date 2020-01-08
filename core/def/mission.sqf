@@ -58,7 +58,7 @@ btc_p_civ_max_veh = "btc_p_civ_max_veh" call BIS_fnc_getParamValue;
 
 //<< Gameplay options >>
 btc_p_sea = ("btc_p_sea" call BIS_fnc_getParamValue) isEqualTo 1;
-btc_p_side_mission_cycle = ("btc_p_side_mission_cycle" call BIS_fnc_getParamValue) isEqualTo 1;	btc_p_chem = ("btc_p_chem" call BIS_fnc_getParamValue) isEqualTo 1;
+btc_p_chem = ("btc_p_chem" call BIS_fnc_getParamValue) isEqualTo 1;
 btc_p_spect = ("btc_p_spect" call BIS_fnc_getParamValue) isEqualTo 1;
 btc_p_side_mission_cycle = "btc_p_side_mission_cycle" call BIS_fnc_getParamValue;
 
@@ -157,7 +157,7 @@ if (isServer) then {
     btc_rep_militia_call_time = 600;
     btc_rep_militia_called = - btc_rep_militia_call_time;
 
-       //Chem
+    //Chem
     btc_chem_decontaminate = [btc_bigShower];
     missionNamespace setVariable ["btc_chem_contaminated", [], true];
 
@@ -174,8 +174,8 @@ if (isServer) then {
     ];
     private _weapons_usefull = "true" configClasses (configFile >> "CfgWeapons") select {(getNumber (_x >> 'type') isEqualTo 1) AND !(getArray(_x >> 'magazines') isEqualTo []) AND (getNumber (_x >> 'scope') isEqualTo 2)};
     btc_cache_weapons_type = _weapons_usefull apply {configName _x};
-   
-   //Hideout classname
+
+    //Hideout classname
     btc_type_campfire = ["MetalBarrel_burning_F"] + (_allClassSorted select {_x isKindOf "Land_Campfire_F"});
     btc_type_Scrapyard = _allClassSorted select {
         _x isKindOf "Scrapyard_base_F" &&
@@ -187,7 +187,7 @@ if (isServer) then {
     btc_type_tent = ["Land_TentA_F", "Land_TentDome_F"] + (_allClassSorted select {_x isKindOf "Land_TentSolar_01_base_F" && !(_x isKindOf "Land_TentSolar_01_folded_base_F")});
     btc_type_camonet = ["Land_IRMaskingCover_02_F"] + (_allClassSorted select {_x isKindOf "Shelter_base_F"});
     btc_type_satelliteAntenna = _allClassSorted select {_x isKindOf "Land_SatelliteAntenna_01_F"};
-    
+
     //Side
     btc_side_ID = 0;
     btc_side_list = ["supply", "mines", "vehicle", "get_city", "tower", "civtreatment", "checkpoint", "convoy", "rescue", "capture_officer", "hostage", "hack", "kill", "EMP"]; // On ground (Side "convoy" and "capture_officer" are not design for map with different islands. Start and end city can be on different islands.)
