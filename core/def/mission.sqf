@@ -136,7 +136,7 @@ if (isServer) then {
     btc_hideout_cap_checking = false;
 
     //IED
-    btc_ied_suic_time = 900;
+    btc_ied_suic_time = 700;
     btc_ied_suic_spawned = - btc_ied_suic_time;
     btc_ied_offset = [0, -0.03, -0.07] select _p_ied_spot;
     btc_ied_list = [];
@@ -328,7 +328,7 @@ btc_w_civs = ["V_Rangemaster_belt", "arifle_Mk20_F", "30Rnd_556x45_Stanag", "hgu
 btc_g_civs = ["HandGrenade", "MiniGrenade", "ACE_M84", "ACE_M84"];
 
 //FOB
-btc_fob_mat = "Land_Cargo20_blue_F";
+btc_fob_mat = "Land_Cargo10_blue_F";
 btc_fob_structure = "Land_Cargo_House_V3_F";
 btc_fob_flag = "Flag_NATO_F";
 btc_fob_id = 0;
@@ -403,6 +403,8 @@ if (isServer) then {
         [
             [
                 //"Fortifications"
+                "vhf30108spike",
+                "vhf30108Item",
                 "Land_BagBunker_Small_F",
                 "Land_BagFence_Corner_F",
                 "Land_BagFence_End_F",
@@ -491,6 +493,8 @@ btc_log_main_rc = [
     "Land_BarGate_F", 3,
     "HBarrier_base_F", 5,
     "Land_BagFence_Long_F", 3,
+    "vhf30108spike", 3,
+    "vhf30108Item", 3,
     "Wall_F", 5,
     "BagBunker_base_F", 5,
     "Wheeled_APC", 50,
